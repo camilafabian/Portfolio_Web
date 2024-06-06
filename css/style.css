@@ -2,31 +2,26 @@ body {
     background-color: #331848;
     color: #fff;
 }
-
 h1 {
     font-family: "acumin-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 76px;
 }
-
 h2 {
     font-family: "acumin-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
 }
-
 h4 {
     font-family: "yantramanav", sans-serif;
     font-weight: normal;
     font-size: 24px;
 }
-
 .textoverde {
     color: #269c36;
 }
-
 p {
     font-family: "Poppins";
     font-weight: 200px;
@@ -34,7 +29,6 @@ p {
     line-height: 30px;
     
 }
-
 /* AQUI COMIENZA EL HEADER */
 header a {
     color: #269d36;
@@ -44,7 +38,6 @@ header a {
     font-family: "Poppins";
     font-weight: bold;
 }
-
 header {
     position: fixed;
     background-color: #331848;
@@ -55,7 +48,6 @@ header {
     z-index: 1000;
     padding-top: 10px;
 }
-
 header img {
     width: 240px;
     margin-left: 70%;
@@ -64,7 +56,6 @@ header img {
 header nav {
     margin-right: 10%;
 }
-
 /* AQUI COMIENZA EL HERO */
 .hero {
     padding-top: 6%;
@@ -74,12 +65,10 @@ header nav {
     margin-right: 8%;
     
 }
-
 .hero img {
     width: 650px;
     z-index: -1; /* para poner la foto de fondo */
 }
-
 .textohero {
     display: flex;
     justify-content: center;
@@ -91,15 +80,14 @@ header nav {
     margin: 0;
     padding-top: 23%;
 }
-
 .textohero h1{
     margin: 0;
     white-space: nowrap;
-    padding-top: 3%;
-    
+    padding-top: 3%;  
 }
 .textohero p{
     position: relative;
+    width: 110%;
     
 }
 .textohero h4{
@@ -109,8 +97,8 @@ header nav {
 .textohero button{
     width: 27%;
     height: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2.3%;
+    padding-bottom: 2.3%;
     border: none;
     border-radius: 25px;
     color: #fff;
@@ -127,6 +115,49 @@ header nav {
     font-size: 13px;
     font-weight: bold;
 }
+/*AQUI COMIENZA EL ABOUT*/
+.about{
+    margin-left: 14%;
+    margin-right: 13%;
+    margin-top: 7%;
+    display: flex;
+    align-items: flex-start;
+}
+.about img{
+    width: 500px;
+}
+.textoabout{
+    margin-left: 6%;
+}
+.textoabout h2{
+    margin-top: 4%;
+    padding: 0;
+}
+.textoabout h4{
+    font-family: "Poppins";
+    line-height: 200%;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.textoabout p{
+    font-size: 12px;
+    margin-top: 4%;
+}
+.textoabout button{
+    margin-top: 3%;
+    width: 32%;
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #269c36;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
 
 
 
