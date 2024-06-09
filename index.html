@@ -28,7 +28,7 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="textohero">
                 <h2 >Hola, Yo soy</h2>
                 <h1>CAMILA <scan class="textoverde">FABIAN</scan></h1><!--el scan permite poner una etiqueta a un rexto dentro de otra eriqueta-->
@@ -40,12 +40,12 @@
                 </div>
             </div>
             <div>
-                <img id="hero" src="img/foto1.png">
+                <img  src="img/foto1.png">
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="sobremi">
             <div>
-                <img id="sobremi"src="img/FOTO2.png">
+                <img src="img/FOTO2.png">
             </div>
             <div class="textoabout">
                 <h2> <scan class="textoverde">Sobre </scan>Mí</h2>
@@ -54,44 +54,76 @@
                 <button class="boton">Descargar CV</button>
             </div>
         </section>
-        <section class="servicios">
-            <h1 id="servicios">Mis Servicios Principales</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio, inventore officia architecto asperiores voluptatem mollitia odit minus consectetur. Tenetur incidunt pariatur quam.</p>
-            <div>
-                <img src="img/SERVICIO1.PNG">
-                <h2>Diseño Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
+        <section class="servicio" id="servicios">
+            <div class="tituloservicios">
+                <h2 >Mis <scan class="textoverde">Servicios</scan> Principales</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cupiditate commodi, magni voluptates praesentium sapiente, ab blanditiis voluptatum architecto atque, provident illo doloribus voluptatem magnam esse culpa earum vel similique!</p>
             </div>
-            <div>
-                <img src="img/SERVICIO2.png">
-                <h2>Desarrollo Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
-            </div>
-            <div>
-                <img src="img/SERVICIO3.png">
-                <h2>Re-Diseño De Sitio Web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
-            </div>
-            <div>
-                <img src="img/servicio4.png">
-                <h2>Desarrollo de Apps Moviles</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
-            </div>
-            <div>
-                <img src="img/servicio5.png">
-                <h2>Diseño De Producto</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
-            </div>
-            <div>
-                <img src="img/SERVICIO6.PNG">
-                <h2>Soluciones Tecnologicas</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi vero soluta. Unde aspernatur impedit soluta nihil culpa ipsa distinctio error nemo illo aliquam magni consequuntur velit numquam, repellendus laboriosam.</p>
-                <a href="">Empezar</a>
+            <div class="grillatarjetas">
+                <div class="tarjetasarriba">
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO1.PNG">
+                                <h5 class="textoverde">Diseño Web</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO2.PNG">
+                                <h5 class="textoverde">Desarrollo Web</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO3.PNG">
+                                <h5 class="textoverde">Re-diseño Web</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjetasabajo">
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO4.PNG">
+                                <h5 class="textoverde">Desarrollo de apps</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO5.PNG">
+                                <h5 class="textoverde">Diseño de producto</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bordestarjeta">
+                        <div class="tarjeta">
+                            <div class="contenidotarjeta">
+                                <img src="img/SERVICIO6.PNG">
+                                <h5 class="textoverde">Soluciones tecnologicas</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non suscipit alias molestias maxime nulla incidunt hic optio</p>
+                                <a href="">Empezar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="portfolio">

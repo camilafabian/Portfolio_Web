@@ -157,6 +157,126 @@ header nav {
     font-family: "Poppins";
     font-size: 12px;
 }
+/*AQUI COMIENZA MIS SERVICIOS*/
+.servicio{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloservicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;/*centrar el subtitulo*/
+}
+.tituloservicios h2{
+    margin-bottom: 3%;
+}
+.tituloservicios p{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+/*en esta clase se hacen los recuadros de los servicios*/
+/*formas tarjetas*/
+.grillatrajetas {
+    display: flex;
+    flex-direction: column;
+}
+.tarjetasarriba,
+.tarjetasabajo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.2% ;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.grillatarjetas p {
+    color: gray;
+}
+.bordestarjeta {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    flex: 1;
+}
+.tarjeta {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    width: 100%;
+    height: 20%;
+    position: relative;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+.tarjeta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+    z-index: -1;
+
+}
+/*aqui empieza el contenido de las tarjetas*/
+.contenidotarjeta{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+.contenidotarjeta p{
+    color: #2f2f2e;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10%;
+    line-height: 150%;
+    padding-right: 10%;
+    padding-top: 0%;
+    margin-top: 0;
+    padding-bottom: 0%;
+    margin-bottom: 6%;
+}
+.contenidotarjeta h5{
+    font-size: 22px;
+    font-family: poppins;
+    padding-top: 4%;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    text-align: left;
+    padding-left: 10%;
+}
+.contenidotarjeta img{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    width: 25%;
+    padding-left: 10%;
+}
+.contenidotarjeta a{
+    text-align: left;
+    padding: 10%;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: poppins;
+    font-size: 15px;
+    color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 
 
 
