@@ -325,7 +325,7 @@ header nav {
     width: 33%;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    
 }
 .galeria img{
     width: 90%;
@@ -334,7 +334,94 @@ header nav {
     padding-right: 5%;
     padding-left: 5%;
 }
+.galeria img:hover{
+    opacity: 40% ;
+
+}
 .columna2 img{
     padding-bottom: 10%;
 }
-
+/*ACA EMPIEZA EL CSS DE LAS OPINIONES*/
+.opiniones{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opiniones h2{
+    margin-bottom: 1%;
+    text-align: center;
+}
+.subtituloopiniones{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fotosclientes{
+    display: flex;
+    align-items: center;
+}
+.fotoredonda{
+    clip-path: circle(40%);
+    width: 40%;
+}
+.circulosclientes img{
+    position: relative;
+    width: 90%;
+}
+.clientesolo{
+    width: 50%;
+}
+.recuadroverde{
+    z-index: -1;
+    position: relative;
+    background-color: #269c36;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 2%;
+    padding: 5%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    width: 62%;
+    height: 45%;
+}
+.recuadroverde img{
+    z-index: 2;
+    position: absolute;
+    
+}
+.clientesolo{
+    margin-bottom: 5%;
+}
+.fotoredonda {
+    
+    z-index: 3;
+    margin-top: 0%; /* Ajusta la distancia desde la parte superior en porcentaje */
+    margin-left: 16%; /* Ajusta la distancia desde la parte izquierda en porcentaje */
+    /* Puedes ajustar estos valores según necesites */
+}
+.recuadroverde p{
+    font-size: 11px;
+    line-height: 200%;
+    font-weight: lighter;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+}
+.recuadroverde h4{
+    font-size: 14px;
+    padding-top: 9%;
+    padding-bottom: 0%;
+    margin: 0;
+    font-family: "poppins";
+}
+.recuadroverde h5{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    font-weight: lighter;
+}
+/*aqui empieza el newletter*/
