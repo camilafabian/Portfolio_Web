@@ -279,7 +279,7 @@ header nav {
 /*AQUI TERMINA EL SERVICIOS*/
 
 /*COMIENZA EL PORTFOLIO*/
-.portfolio{
+/*.portfolio{
     margin-top: 3%;
     margin-right: 15%;
     margin-left: 15%;
@@ -340,6 +340,85 @@ header nav {
 }
 .columna2 img{
     padding-bottom: 10%;
+}*/
+.portfolio {
+    margin-top: 3%;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 6%;
+}
+.portfolio nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+.portfolio a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins";
+}
+.portfolio a:hover {
+    height: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    border-radius: 25px;
+    color: #331848;
+    background-color: #269c36;
+    font-family: "Poppins";
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+}
+.galeria .columna1, .galeria .columna2, .galeria .columna3 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.marcogaleria {
+    position: relative;
+    width: 90%;
+    margin-bottom: 5%;
+}
+.marcogaleria img {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.marcogaleria:hover .overlay {
+    opacity: 1;
+}
+.titulosproyecto {
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 /*ACA EMPIEZA EL CSS DE LAS OPINIONES*/
 .opiniones{
@@ -396,13 +475,11 @@ header nav {
 .clientesolo{
     margin-bottom: 5%;
 }
-.fotoredonda {
-    
+.fotoredonda {  
     z-index: 3;
     margin-top: 0%;
     margin-left: 16%;
-    margin-bottom: -10%;
-    
+    margin-bottom: -10%; 
 }
 .recuadroverde p{
     font-size: 11px;
