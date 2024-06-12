@@ -1,0 +1,138 @@
+@media (max-width: 1920px) {
+}
+@media (max-width: 1440px) {
+/*No necesitan modificaciones*/
+}
+@MEDIA (max-width: 1280px){
+    header img {
+        width: 200px;
+        margin-left: 60%;
+    }
+    header nav {
+        margin-right: 5%;
+    }
+    .textohero h1{
+        margin: 0;
+        white-space: nowrap;
+        padding-top: 3%; 
+        z-index: 1; 
+    }
+    .servicio{
+        margin-left: 10%;
+        margin-right: 8%;
+    }
+    .portfolio{
+        margin-right: 12%;
+        margin-left: 17%;
+    }
+    .opiniones{
+        margin-left: 17%;
+        margin-right: 12%;
+    }
+    .contactame{
+        margin-left: 17%;
+        margin-right: 12%;
+    }
+}
+@media (max-width: 1024px){
+    header img {
+        width: 180px;
+        margin-left: 50%;
+        padding-top: 1%;
+    }
+    header a {
+        padding-left: 40px;
+    }
+    /*ABOUT*/
+    .textohero h1{
+        margin: 0;
+        white-space: wrap;
+        padding-top: 1%;  
+    }
+    .hero img {
+        width: 500px;
+        z-index: -1;
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    .botones{
+        font-size: 11px;
+    }
+    /*ABOUT*/
+    .about{
+        margin-left: 9%;
+        margin-right: 7%;
+        margin-top: 7%;
+    }
+    .about img{
+        width: 400px;
+    }
+    .textoabout{
+        margin-left: 6%;
+    }
+    .textoabout h2{
+        margin-top: 4%;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .textoabout h4{
+        font-family: "Poppins";
+        line-height: 150%;
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+    .textoabout p{
+        font-size: 12px;
+        margin-top: 4%;
+    }
+    /*SERVICIO*/
+    .servicio{
+        padding-top: 1%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    /*PORTFOLIO*/
+    .portfolio {
+        margin-top: 1%;
+        margin-right: 7%;
+        margin-left: 11%;
+    }
+    .portfolio nav {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 7%;
+    }
+    /*OPINIONES*/
+    .opiniones{
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 1.5%;
+    }
+    .circulosclientes img{
+        position: relative;
+        width: 80%;
+    }
+    .recuadroverde{
+        padding: 5%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        width: 70%;
+        height: 45%;
+    }
+    /*NEWLETTER*/
+    .newsletter{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .contactame{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+@media (max-width: 768px){
+    
+}
