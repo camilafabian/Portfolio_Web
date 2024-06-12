@@ -426,10 +426,8 @@
         margin: 0;
         margin-left: 1%;
         padding: 0;
-
     }
     header{
-        border: 2px solid black;
         display: flex;
         justify-content: space-around;
         height: 5%;
@@ -450,7 +448,6 @@
     }
     /*HERO*/
     .hero{
-        border: 2px solid black;
         width: 480px;
         margin-left: 0%;
         margin-right: 0%;
@@ -495,7 +492,6 @@
     }
     /*ABOUT*/
     .about{
-        border: 2px solid black;
         display: flex;
         flex-direction: column;
         width: 480px;
@@ -525,7 +521,6 @@
     }
     /*SERVICIO*/
     .servicio {
-        border: 2px solid black;
         padding-top: 1%;
         width: 480px;
         margin-left: 0%;
@@ -561,7 +556,6 @@
     }
     /*PORTFOLIO*/
     .portfolio {
-        border: 2px solid black;
         margin-top: 1%;
         width: 480px;
         margin-left: 0%;
@@ -585,7 +579,6 @@
     }
     /*OPINIONES*/
     .opiniones{
-        border: 2px solid black;
         width: 480px;
         margin-left: 0%;
         margin-right: 0%;
@@ -628,7 +621,6 @@
         font-size: 30px;
     }
     .newsletter{
-        border: 2px solid black;
         width: 480px;
         margin-left: 0%;
         margin-right: 0%;
@@ -647,7 +639,6 @@
         margin-bottom: 1%;
     }
     .contactame{
-        border: 2px solid black;
         width: 480px;
         margin-left: 0%;
         margin-right: 0%;
@@ -681,5 +672,13 @@
     }
     .textodermail{
         padding-left: 3%;
+    }
+}
+@media (max-width:320px){
+    .hero{
+        padding-top: 10%;
+    }
+    .about h4{
+        width: 90%;
     }
 }
