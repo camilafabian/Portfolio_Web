@@ -54,6 +54,9 @@ header img {
 header nav {
     margin-right: 10%;
 }
+.desaparecer{
+    display: none;
+}
 /* AQUI COMIENZA EL HERO */
 .hero {
     padding-top: 6%;

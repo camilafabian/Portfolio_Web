@@ -7,6 +7,7 @@
     header img {
         width: 200px;
         margin-left: 60%;
+        padding-top: 1%;
     }
     header nav {
         margin-right: 5%;
@@ -134,5 +135,551 @@
     }
 }
 @media (max-width: 768px){
-    
+    header img {
+        width: 150px;
+        margin-left: 30%;
+        padding-top: 1%;
+    }
+    header a {
+        padding-left: 20px;
+    }
+    .textohero h1{
+       font-size: 60px; 
+    }
+    .textohero h2{
+        font-size: 40px;
+    }
+    .hero img {
+        width: 380px;
+        z-index: -1;
+        padding-top: 5%;
+        padding-left: 0%;
+    }
+    .textohero p{
+        position: relative;
+        width: 140%;  
+    }
+    .textohero h4{
+        padding-top: 8%;
+        margin: 0;
+        width: 110%;
+        z-index: 1;
+    }
+    .textohero button{
+        width: 37%;
+    }
+    /*ABOUT*/
+    .about{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .about img{
+        width: 300px;
+    }
+    .textoabout{
+        margin-left: 6%;
+    }
+    .textoabout h2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 40px;
+    }
+    .textoabout h4{
+        font-size: 16px;
+    }
+    .textoabout p{
+        font-size: 11px;
+        margin-top: 2%;
+    }
+    /*SERVICIO*/
+    .servicio {
+        padding-top: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .tituloservicios{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .contenidotarjeta h5{
+        font-size: 18px;
+    }
+    /*PORTFOLIO*/
+    .portfolio {
+        margin-top: 1%;
+        margin-right: 3%;
+        margin-left: 7%;
+    }
+    .portfolio nav {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 7%;
+    }
+    .portfolio a {
+        font-size: 13px;
+    }
+    /*OPINIONES*/
+    .opiniones{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+    .opiniones h2{
+        font-size: 45px;
+    }
+    .circulosclientes img{
+        position: relative;
+        width: 80%;
+        margin: 0;
+    }
+    .clientesolo{
+        margin: 0;
+        width: 60%;
+    }
+    .recuadroverde{
+        padding: 5%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        width: 80%;
+        height: 45%;
+    }
+    .fotoredonda{
+        margin-left: 26%;
+    }
+    /*NEWLETTER*/
+    .newsletter h2{
+        font-size: 45px;
+    }
+    .newsletter{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario1{
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario1 button{
+        margin-left: -0.6%;
+        font-size: 15.5px;
+        padding: 1.6%;
+    }
+    .contactame{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .contactame h2{
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .textodertelefono{
+        padding-left: 10%;
+    }
+}
+@media (max-width: 800px){
+    header img {
+        width: 150px;
+        margin-left: 50%;
+        padding-top: 1%;
+    }
+    header a {
+        padding-left: 20px;
+    }
+    .hero img {
+        width: 380px;
+        z-index: -1;
+        padding-top: 5%;
+        padding-left: 0%;
+    }
+    .textohero h1{
+        font-size: 60px; 
+     }
+     .textohero h2{
+         font-size: 40px;
+     }
+    .textohero p{
+        position: relative;
+        width: 140%;  
+    }
+    .textohero h4{
+        padding-top: 8%;
+        margin: 0;
+        width: 110%;
+        z-index: 1;
+    }
+    .textohero button{
+        width: 37%;
+    }
+    /*ABOUT*/
+    .about{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .about img{
+        width: 300px;
+    }
+    .textoabout{
+        margin-left: 6%;
+    }
+    .textoabout h2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 40px;
+    }
+    .textoabout h4{
+        font-size: 16px;
+    }
+    .textoabout p{
+        font-size: 11px;
+        margin-top: 2%;
+    }
+    /*SERVICIO*/
+    .servicio {
+        padding-top: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .tituloservicios{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .contenidotarjeta h5{
+        font-size: 18px;
+    }
+    /*PORTFOLIO*/
+    .portfolio {
+        margin-top: 1%;
+        margin-right: 3%;
+        margin-left: 7%;
+    }
+    .portfolio nav {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 7%;
+    }
+    .portfolio a {
+        font-size: 13px;
+    }
+    /*OPINIONES*/
+    .opiniones{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+    }
+    .opiniones h2{
+        font-size: 45px;
+    }
+    .circulosclientes img{
+        position: relative;
+        width: 80%;
+        margin: 0;
+    }
+    .clientesolo{
+        margin: 0;
+        width: 60%;
+    }
+    .recuadroverde{
+        padding: 5%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        width: 80%;
+        height: 45%;
+    }
+    .fotoredonda{
+        margin-left: 26%;
+    }
+    /*NEWLETTER*/
+    .newsletter h2{
+        font-size: 45px;
+    }
+    .newsletter{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario1{
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario1 button{
+        margin-left: -0.6%;
+        font-size: 15.5px;
+        padding: 1.6%;
+    }
+    .contactame{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .contactame h2{
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .textodertelefono{
+        padding-left: 10%;
+    }
+}
+@media (max-width: 480px){
+    /*HEADER*/
+    *{
+        margin: 0;
+        margin-left: 1%;
+        padding: 0;
+
+    }
+    header{
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-around;
+        height: 5%;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    header nav {
+        display: none;
+    }
+    header img{
+        margin-left: 1%;
+    }
+    .desaparecer {
+        display: flex;
+        padding-right: 4%;
+        width: 10%;
+    }
+    /*HERO*/
+    .hero{
+        border: 2px solid black;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0;
+    }
+    .hero h1{
+        white-space: nowrap;
+        padding: 0;
+        padding-top: 2%;
+        font-size: 40px;
+    }
+    .hero img{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    .textohero{
+        padding: 0;
+        margin: 0;
+    }
+    .textohero h2{
+        font-size: 25px;
+     }
+    .textohero p{
+        padding: 0;
+        position: relative;
+        width: 150%;  
+    }
+    .textohero h4{
+        padding: 0;
+        padding-top: 8%;
+        margin: 0;
+        width: 110%;
+        z-index: 1;
+        white-space: nowrap;
+    }
+    .textohero button{
+        width: 50%;
+    }
+    .botones{
+        font-size: 17px;
+    }
+    /*ABOUT*/
+    .about{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-top: 5%;
+    }
+    .about img{
+        width: 280px;
+        padding: 0;
+        padding-left: 100px;
+    }
+    .textoabout{
+        margin-left: 6%;
+    }
+    .textoabout h2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 40px;
+    }
+    .textoabout h4{
+        font-size: 16px;
+    }
+    .textoabout p{
+        font-size: 11px;
+        margin-top: 2%;
+    }
+    /*SERVICIO*/
+    .servicio {
+        border: 2px solid black;
+        padding-top: 1%;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .grillatarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetasarriba{
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetasabajo{
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetasarriba div {
+        padding-bottom: 10%;
+    }
+    .tarjetasabajo div {
+        padding-bottom: 10%;
+    }
+    .tituloservicios{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .titulosservicios h2{
+        font-size: 22px;
+    }
+    .contenidotarjeta h5{
+        font-size: 25px;
+    }
+    /*PORTFOLIO*/
+    .portfolio {
+        border: 2px solid black;
+        margin-top: 1%;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .portfolio nav {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 7%;
+    }
+    .portfolio a {
+        font-size: 10px;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeria .columna1, .galeria .columna2, .galeria .columna3 {
+        width: 95%;
+        padding-left: 4%;
+    }
+    /*OPINIONES*/
+    .opiniones{
+        border: 2px solid black;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+    }
+    .opiniones h2{
+        font-size: 45px;
+    }
+    .fotosclientes{
+        display: flex;
+        flex-direction: column;
+    }
+    .circulosclientes img{
+        position: relative;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        padding-left: 4%;
+    }
+    .clientesolo{
+        margin: 0;
+        width: 60%;
+        padding-left: 8%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    .recuadroverde{
+        padding: 5%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        width: 80%;
+        height: 45%;
+    }
+    .fotoredonda{
+        margin-left: 26%;
+        margin-top: 3%;
+    }
+    /*NEWLETTER*/
+    .newsletter h2{
+        font-size: 30px;
+    }
+    .newsletter{
+        border: 2px solid black;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .formulario1{
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .formulario1 button{
+        margin-left: -0.9%;
+        font-size: 10px;
+        padding: 0%;
+        padding-top: 2.3%;
+        padding-bottom: 2.3%;
+        margin-bottom: 1%;
+    }
+    .contactame{
+        border: 2px solid black;
+        width: 480px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .contactame h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .formascontacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactoderecho{
+        width: 90%;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+    .contactoizquierdo{
+        width: 90%;
+        padding-left: 6%;
+        padding-top: 5%;
+    }
+    .textodertelefono{
+        padding-left: 10%;
+    }
+    .textoderubicacion p{
+        line-height: 110%;
+    }
+    .textoderubicacion h4{
+        padding-bottom: 3%;
+    }
+    .textodermail{
+        padding-left: 3%;
+    }
 }
