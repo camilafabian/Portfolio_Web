@@ -12,14 +12,15 @@ To view my portfolio website, simply visit the following link: [Portfolio Web](h
 
 ## Preview 💻
 
-![preview](img/vistaprevia1.png)
-![preview](img/vistaprevia2.png)
-![preview](img/vistaprevia3.png)
-![preview](img/vistaprevia4.png)
-![preview](img/vistaprevia5.png)
-![preview](img/vistaprevia6.png)
-![preview](img/vistaprevia7.png)
-![preview](img/vistaprevia8.png)
+<img src="img/vistaprevia1">
+<img src="img/vistaprevia2">
+<img src="img/vistaprevia3">
+<img src="img/vistaprevia4">
+<img src="img/vistaprevia5">
+<img src="img/vistaprevia6">
+<img src="img/vistaprevia7">
+<img src="img/vistaprevia8">
+
 
 ## Technologies Used 🛰️
 
